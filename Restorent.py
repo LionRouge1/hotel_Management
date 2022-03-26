@@ -9,7 +9,7 @@ from tkinter import font
 
 localtime = time.asctime(time. localtime(time.time()))
 class RestaurantApp:
-    #Creating the window and its dimensions 
+    # Creating the window and its dimensions 
     def __init__(self, top):
         self.top = top
         top.title("Restaurant Management")
